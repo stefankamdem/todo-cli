@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "task": "Do homework",
+    "done": false
+  }
+]

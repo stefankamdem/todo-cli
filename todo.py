@@ -69,21 +69,38 @@ def complete_task(task_id):
 
 if __name__ == "__main__":
     # Prints the menu
-    console.print("[bold]Simple To-Do CLI[/bold]")
-    console.print("1. List tasks\n2. Add task\n3. Complete task\n4. Delete task\n5. Clear all tasks\n6. Exit")
+    while True:
+        console.print("[bold]Simple To-Do CLI[/bold]")
+        console.print(
+            "1. List tasks\n"
+            "2. Add task\n"
+            "3. Complete task\n"
+            "4. Delete task\n"
+            "5. Clear all tasks\n"
+            "6. Exit"
+        )
 
-    choice = input("Choose: ")
+        choice = input("Choose: ")
 
-    #Handles the user's choice
-    if choice == "1":
-        list_tasks()
-    elif choice == "2":
-        add_task(input("Task: "))
-    elif choice == "3":
-        complete_task(int(input("Task ID: ")))
-    elif choice == "4":
-        delete_task(int(input("Task ID to delete: ")))
-    elif choice == "5":
-        clear_tasks()
-    else:
-        console.print("[yellow]Goodbye![/yellow]")
+        #Handles the user's choice
+        if choice == "1":
+            list_tasks()
+        elif choice == "2":
+            add_task(input("Task: ").strip())
+        elif choice == "3":
+            try:
+                complete_task(int(input("Task ID: ").strip()))
+            except ValueError:
+                console.print("[red]Please enter a valid number.[/red]")
+        elif choice == "4":
+            try:
+                delete_task(int(input("Task ID to delete: ").strip()))
+            except ValueError:
+                console.print("[red]Please enter a valid number.[/red]")
+        elif choice == "5":
+            clear_tasks()
+        elif choice == "6":
+            console.print("[yellow]Goodbye![/yellow]")
+            break
+        else:
+            console.print("[red]Invalid choice, please try again.[/red]")
