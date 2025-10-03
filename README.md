@@ -44,7 +44,7 @@ Features: add, list, complete, delte, and clear tasks. Stores data in a local JS
 
 ## Usage
 Run the app with:<br>
-    ```bash
+    ```bash<br>
     python todo.py
     
 ## Future improvemnts
