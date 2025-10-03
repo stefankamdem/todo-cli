@@ -43,7 +43,7 @@ Features: add, list, complete, delte, and clear tasks. Stores data in a local JS
    pip install -r requirements.txt
 
 ## Usage
-Run the app with:
+Run the app with:<br>
     ```bash
     python todo.py
     
