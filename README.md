@@ -23,9 +23,9 @@ Features: add, list, complete, delte, and clear tasks. Stores data in a local JS
 <img width="432" height="199" alt="image" src="https://github.com/user-attachments/assets/f3273ff7-84ef-43d0-b3d0-8c09a0d4925c" />
 
 ## Installation
-  ```bash
-  git clone https://github.com/stefankamdem/todo-cli.git
-  cd todo-cli
+    ```bash
+    git clone https://github.com/stefankamdem/todo-cli.git
+    cd todo-cli
 
 ## Requirements
 - Python 3.8+
