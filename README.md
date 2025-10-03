@@ -1,6 +1,6 @@
 # To-Do List CLI - Simple Task Manager(Python)
 
-A simple command-line to-do app that lets you add, list, and complete tasks.
+A simple command-line to-do app that lets you add, list, and complete tasks. <br>
 Features: add, list, complete, delte, and clear tasks. Stores data in a local JSON file.
 ## Demo
 - Add tasks
