@@ -1,8 +1,8 @@
-# To-Do List CLI (Python)
+# To-Do List CLI - Simple Task Manager(Python)
 
 A simple command-line to-do app that lets you add, list, and complete tasks.
-
-## Features
+Features: add, list, complete, delte, and clear tasks. Stores data in a local JSON file.
+## Demo
 - Add tasks
 
 <img width="480" height="289" alt="image" src="https://github.com/user-attachments/assets/bbff18d8-b4f4-44c1-baaa-1f69dd38cbe8" /><br>
@@ -22,6 +22,11 @@ A simple command-line to-do app that lets you add, list, and complete tasks.
 
 <img width="432" height="199" alt="image" src="https://github.com/user-attachments/assets/f3273ff7-84ef-43d0-b3d0-8c09a0d4925c" />
 
+## Requirements
+- Python 3.8+
+- Install dependecies:
+  ```bash
+  pip install -r requirements.txt
 
 ## Usage
 ```bash
