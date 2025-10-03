@@ -22,10 +22,6 @@ Features: add, list, complete, delte, and clear tasks. Stores data in a local JS
 
 <img width="432" height="199" alt="image" src="https://github.com/user-attachments/assets/f3273ff7-84ef-43d0-b3d0-8c09a0d4925c" />
 
-## Installation
-    ```bash
-    git clone https://github.com/stefankamdem/todo-cli.git
-    cd todo-cli
 
 ## Requirements
 - Python 3.8+
@@ -33,6 +29,25 @@ Features: add, list, complete, delte, and clear tasks. Stores data in a local JS
   ```bash
   pip install -r requirements.txt
 
+## Installation
+1. Clone this repo
+    ```bash
+    git clone https://github.com/stefankamdem/todo-cli.git
+    cd todo-cli
+2. Create and activate a virtual environment
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+
 ## Usage
-  ```bash
-  python todo.py
+Run the app with:
+    ```bash
+    python todo.py
+    
+## Future improvemnts
+- Save tasks to a file so they persist after closing
+- Add deadlines & priorities for tasks
+- Convert into a GUI app (Tkinter/PyQt) or a web app (Flask/Django)
